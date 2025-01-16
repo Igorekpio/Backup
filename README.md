@@ -29,9 +29,11 @@ if [ $? -eq 0 ]; then
 else
         echo "$(date) - Резервное копирование не выполнено" >> /var/log/backup_sys.log
 fi
+```
 
 #### Файл crontab
 - резервное копирование каждый день в 2 часа ночи
+
 ![image](https://github.com/user-attachments/assets/d9d93da9-3ab4-48fd-a9a5-6d67f5fdc1b1)
 ![image](https://github.com/user-attachments/assets/0124a2b1-8c9f-40cc-a529-70628beaaf2e)
 ![image](https://github.com/user-attachments/assets/e38bf2f0-b67a-45aa-bfb9-9cf6c65975ee)
